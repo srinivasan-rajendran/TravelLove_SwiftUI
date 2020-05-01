@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF552F8D245C3F5F00432A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552F8C245C3F5F00432A64 /* AppDelegate.swift */; };
+		FF552F8F245C3F5F00432A64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552F8E245C3F5F00432A64 /* SceneDelegate.swift */; };
+		FF552F91245C3F5F00432A64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552F90245C3F5F00432A64 /* ContentView.swift */; };
+		FF552F93245C3F6000432A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF552F92245C3F6000432A64 /* Assets.xcassets */; };
+		FF552F96245C3F6000432A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF552F95245C3F6000432A64 /* Preview Assets.xcassets */; };
+		FF552F99245C3F6000432A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF552F97245C3F6000432A64 /* LaunchScreen.storyboard */; };
+		FF552FA3245C475900432A64 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FA2245C475900432A64 /* Destination.swift */; };
+		FF552FA6245C47B600432A64 /* PlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FA5245C47B600432A64 /* PlacesData.swift */; };
+		FF552FA9245C488100432A64 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FA8245C488100432A64 /* CardView.swift */; };
+		FF552FAD245C4E4700432A64 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FAC245C4E4700432A64 /* HeaderView.swift */; };
+		FF552FAF245C507100432A64 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FAE245C507100432A64 /* FooterView.swift */; };
+		FF552FB1245C55A800432A64 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FB0245C55A800432A64 /* HeaderComponent.swift */; };
+		FF552FB3245C56AF00432A64 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FB2245C56AF00432A64 /* GuideComponent.swift */; };
+		FF552FB5245C5C9800432A64 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FB4245C5C9800432A64 /* GuideView.swift */; };
+		FF552FB7245CA64B00432A64 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FB6245CA64B00432A64 /* InfoView.swift */; };
+		FF552FB9245CA70E00432A64 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FB8245CA70E00432A64 /* TitleModifier.swift */; };
+		FF552FBC245CA92500432A64 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FBB245CA92500432A64 /* ButtonModifier.swift */; };
+		FF552FC5245CCDF400432A64 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FC4245CCDF400432A64 /* SymbolModifier.swift */; };
+		FF552FC7245CD20F00432A64 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FC6245CD20F00432A64 /* CardTransition.swift */; };
+		FF552FCA245CD4FA00432A64 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF552FC9245CD4FA00432A64 /* PlaySound.swift */; };
+		FF552FCE245CD74A00432A64 /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF552FCC245CD74A00432A64 /* sound-click.mp3 */; };
+		FF552FCF245CD74A00432A64 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF552FCD245CD74A00432A64 /* sound-rise.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF552F89245C3F5F00432A64 /* TravelLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF552F8C245C3F5F00432A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF552F8E245C3F5F00432A64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF552F90245C3F5F00432A64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF552F92245C3F6000432A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF552F95245C3F6000432A64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF552F98245C3F6000432A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF552F9A245C3F6000432A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF552FA2245C475900432A64 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		FF552FA5245C47B600432A64 /* PlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesData.swift; sourceTree = "<group>"; };
+		FF552FA8245C488100432A64 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FF552FAC245C4E4700432A64 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FF552FAE245C507100432A64 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		FF552FB0245C55A800432A64 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		FF552FB2245C56AF00432A64 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		FF552FB4245C5C9800432A64 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		FF552FB6245CA64B00432A64 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		FF552FB8245CA70E00432A64 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		FF552FBB245CA92500432A64 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		FF552FC4245CCDF400432A64 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		FF552FC6245CD20F00432A64 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		FF552FC9245CD4FA00432A64 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		FF552FCC245CD74A00432A64 /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		FF552FCD245CD74A00432A64 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF552F86245C3F5F00432A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF552F80245C3F5F00432A64 = {
+			isa = PBXGroup;
+			children = (
+				FF552F8B245C3F5F00432A64 /* TravelLove */,
+				FF552F8A245C3F5F00432A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF552F8A245C3F5F00432A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF552F89245C3F5F00432A64 /* TravelLove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF552F8B245C3F5F00432A64 /* TravelLove */ = {
+			isa = PBXGroup;
+			children = (
+				FF552F8C245C3F5F00432A64 /* AppDelegate.swift */,
+				FF552F8E245C3F5F00432A64 /* SceneDelegate.swift */,
+				FF552FCB245CD4FF00432A64 /* Helper */,
+				FF552FC8245CD4E700432A64 /* Extension */,
+				FF552FC3245CAFE300432A64 /* Views */,
+				FF552FBA245CA73A00432A64 /* Modifier */,
+				FF552FA7245C484200432A64 /* Data */,
+				FF552FA4245C477D00432A64 /* Model */,
+				FF552F92245C3F6000432A64 /* Assets.xcassets */,
+				FF552F97245C3F6000432A64 /* LaunchScreen.storyboard */,
+				FF552F9A245C3F6000432A64 /* Info.plist */,
+				FF552FD0245CD74E00432A64 /* Sounds */,
+				FF552F94245C3F6000432A64 /* Preview Content */,
+			);
+			path = TravelLove;
+			sourceTree = "<group>";
+		};
+		FF552F94245C3F6000432A64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF552F95245C3F6000432A64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF552FA4245C477D00432A64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FA2245C475900432A64 /* Destination.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF552FA7245C484200432A64 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FA5245C47B600432A64 /* PlacesData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FF552FAA245C4E3000432A64 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				FF552F90245C3F5F00432A64 /* ContentView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		FF552FAB245C4E3A00432A64 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FA8245C488100432A64 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		FF552FBA245CA73A00432A64 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FB8245CA70E00432A64 /* TitleModifier.swift */,
+				FF552FC4245CCDF400432A64 /* SymbolModifier.swift */,
+				FF552FBB245CA92500432A64 /* ButtonModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		FF552FBD245CAF8800432A64 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FB6245CA64B00432A64 /* InfoView.swift */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		FF552FBE245CAF9900432A64 /* HeaderComponent */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FB0245C55A800432A64 /* HeaderComponent.swift */,
+			);
+			path = HeaderComponent;
+			sourceTree = "<group>";
+		};
+		FF552FBF245CAFA200432A64 /* GuideView */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FB4245C5C9800432A64 /* GuideView.swift */,
+			);
+			path = GuideView;
+			sourceTree = "<group>";
+		};
+		FF552FC0245CAFAB00432A64 /* GuideComponent */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FB2245C56AF00432A64 /* GuideComponent.swift */,
+			);
+			path = GuideComponent;
+			sourceTree = "<group>";
+		};
+		FF552FC1245CAFB600432A64 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FAC245C4E4700432A64 /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		FF552FC2245CAFBC00432A64 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FAE245C507100432A64 /* FooterView.swift */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		FF552FC3245CAFE300432A64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FAB245C4E3A00432A64 /* CardView */,
+				FF552FC2245CAFBC00432A64 /* FooterView */,
+				FF552FC0245CAFAB00432A64 /* GuideComponent */,
+				FF552FBF245CAFA200432A64 /* GuideView */,
+				FF552FBE245CAF9900432A64 /* HeaderComponent */,
+				FF552FC1245CAFB600432A64 /* HeaderView */,
+				FF552FAA245C4E3000432A64 /* HomeView */,
+				FF552FBD245CAF8800432A64 /* InfoView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF552FC8245CD4E700432A64 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FC6245CD20F00432A64 /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FF552FCB245CD4FF00432A64 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FC9245CD4FA00432A64 /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FF552FD0245CD74E00432A64 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FF552FCC245CD74A00432A64 /* sound-click.mp3 */,
+				FF552FCD245CD74A00432A64 /* sound-rise.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF552F88245C3F5F00432A64 /* TravelLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF552F9D245C3F6000432A64 /* Build configuration list for PBXNativeTarget "TravelLove" */;
+			buildPhases = (
+				FF552F85245C3F5F00432A64 /* Sources */,
+				FF552F86245C3F5F00432A64 /* Frameworks */,
+				FF552F87245C3F5F00432A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelLove;
+			productName = TravelLove;
+			productReference = FF552F89245C3F5F00432A64 /* TravelLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF552F81245C3F5F00432A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Srinivasan Rajendran";
+				TargetAttributes = {
+					FF552F88245C3F5F00432A64 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = FF552F84245C3F5F00432A64 /* Build configuration list for PBXProject "TravelLove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF552F80245C3F5F00432A64;
+			productRefGroup = FF552F8A245C3F5F00432A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF552F88245C3F5F00432A64 /* TravelLove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF552F87245C3F5F00432A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF552FCF245CD74A00432A64 /* sound-rise.mp3 in Resources */,
+				FF552F99245C3F6000432A64 /* LaunchScreen.storyboard in Resources */,
+				FF552FCE245CD74A00432A64 /* sound-click.mp3 in Resources */,
+				FF552F96245C3F6000432A64 /* Preview Assets.xcassets in Resources */,
+				FF552F93245C3F6000432A64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF552F85245C3F5F00432A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF552F8D245C3F5F00432A64 /* AppDelegate.swift in Sources */,
+				FF552FA3245C475900432A64 /* Destination.swift in Sources */,
+				FF552FB3245C56AF00432A64 /* GuideComponent.swift in Sources */,
+				FF552F8F245C3F5F00432A64 /* SceneDelegate.swift in Sources */,
+				FF552FC7245CD20F00432A64 /* CardTransition.swift in Sources */,
+				FF552FB9245CA70E00432A64 /* TitleModifier.swift in Sources */,
+				FF552FB7245CA64B00432A64 /* InfoView.swift in Sources */,
+				FF552F91245C3F5F00432A64 /* ContentView.swift in Sources */,
+				FF552FAD245C4E4700432A64 /* HeaderView.swift in Sources */,
+				FF552FBC245CA92500432A64 /* ButtonModifier.swift in Sources */,
+				FF552FAF245C507100432A64 /* FooterView.swift in Sources */,
+				FF552FB1245C55A800432A64 /* HeaderComponent.swift in Sources */,
+				FF552FB5245C5C9800432A64 /* GuideView.swift in Sources */,
+				FF552FC5245CCDF400432A64 /* SymbolModifier.swift in Sources */,
+				FF552FA9245C488100432A64 /* CardView.swift in Sources */,
+				FF552FA6245C47B600432A64 /* PlacesData.swift in Sources */,
+				FF552FCA245CD4FA00432A64 /* PlaySound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF552F97245C3F6000432A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF552F98245C3F6000432A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF552F9B245C3F6000432A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF552F9C245C3F6000432A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF552F9E245C3F6000432A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelLove/Preview Content\"";
+				DEVELOPMENT_TEAM = 59PKSR6X25;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravelLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinivasan.TravelLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF552F9F245C3F6000432A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelLove/Preview Content\"";
+				DEVELOPMENT_TEAM = 59PKSR6X25;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravelLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinivasan.TravelLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF552F84245C3F5F00432A64 /* Build configuration list for PBXProject "TravelLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF552F9B245C3F6000432A64 /* Debug */,
+				FF552F9C245C3F6000432A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF552F9D245C3F6000432A64 /* Build configuration list for PBXNativeTarget "TravelLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF552F9E245C3F6000432A64 /* Debug */,
+				FF552F9F245C3F6000432A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF552F81245C3F5F00432A64 /* Project object */;
+}
